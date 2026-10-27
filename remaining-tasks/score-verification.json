@@ -1,0 +1,911 @@
+{
+  "videos": 225,
+  "segments": 3030,
+  "pooling_checks": [
+    {
+      "video": "coffee_u1_a1_normal_001",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_002",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_003",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_004",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_014",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_018",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_019",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_020",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_021",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_022",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_023",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_024",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "coffee_u1_a2_normal_007",
+      "max_error": 2.60770320892334e-08
+    },
+    {
+      "video": "coffee_u1_a2_normal_008",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a2_normal_009",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a2_normal_010",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a2_normal_011",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a4_normal_028",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a4_normal_029",
+      "max_error": 5.21540641784668e-08
+    },
+    {
+      "video": "coffee_u1_a4_normal_030",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a4_normal_031",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "coffee_u1_a4_normal_032",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a4_normal_033",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a4_normal_034",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "coffee_u1_a6_normal_027",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a7_normal_012",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a7_normal_013",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a1_normal_015",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a3_normal_025",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a7_normal_005",
+      "max_error": 5.960464477539063e-08
+    },
+    {
+      "video": "coffee_u1_a1_error_001",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "coffee_u1_a1_error_010",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a1_error_013",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a1_error_014",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a1_error_015",
+      "max_error": 5.960464477539063e-08
+    },
+    {
+      "video": "coffee_u1_a1_error_016",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a2_error_005",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "coffee_u1_a2_error_006",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a2_error_017",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a2_error_018",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a2_error_019",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a2_error_020",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a2_error_021",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a2_error_022",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a2_error_023",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a5_error_024",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a5_error_025",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a5_error_026",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a5_error_027",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a5_error_028",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a5_error_029",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a5_error_030",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a6_error_031",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a6_error_032",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a6_error_033",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a6_error_034",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a6_error_036",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a6_normal_026",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a7_error_002",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a7_error_003",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "coffee_u1_a7_error_004",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a7_error_007",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a7_error_008",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "coffee_u1_a7_error_009",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "coffee_u1_a7_error_011",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "coffee_u1_a7_error_035",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "coffee_u1_a7_normal_006",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "coffee_u1_a7_normal_016",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "oatmeal_u1_a1_normal_002",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a1_normal_003",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a1_normal_009",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a1_normal_017",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_007",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_008",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_011",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_012",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_019",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_020",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_023",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_024",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_027",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_028",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_031",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_032",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_normal_013",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_normal_014",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_normal_021",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_normal_022",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_normal_029",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_normal_030",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a6_normal_001",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a6_normal_004",
+      "max_error": 8.940696716308594e-08
+    },
+    {
+      "video": "oatmeal_u1_a6_normal_010",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a6_normal_018",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u2_aq_normal_001",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u2_aq_normal_002",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u2_aq_normal_003",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u2_aq_normal_004",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "oatmeal_u2_av_normal_005",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u2_av_normal_006",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u2_ay_normal_007",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u2_ay_normal_008",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u2_ay_normal_009",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u2_ay_normal_010",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u2_az_normal_011",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u2_az_normal_012",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u2_az_normal_013",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "oatmeal_u1_a1_normal_025",
+      "max_error": 5.21540641784668e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_005",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_015",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a1_normal_026",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_error_025",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_error_026",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_error_027",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_error_028",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_error_029",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_error_030",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_error_031",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_error_032",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_006",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a2_normal_016",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_error_017",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_error_018",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_error_019",
+      "max_error": 1.1175870895385742e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_error_020",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_error_021",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_error_022",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_error_023",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a3_error_024",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "oatmeal_u1_a4_error_009",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a4_error_010",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a4_error_011",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a4_error_012",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a4_error_013",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a4_error_014",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a4_error_015",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a4_error_016",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "oatmeal_u1_a5_error_001",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a5_error_002",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a5_error_003",
+      "max_error": 7.450580596923828e-08
+    },
+    {
+      "video": "oatmeal_u1_a5_error_004",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "oatmeal_u1_a5_error_005",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "oatmeal_u1_a5_error_006",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "oatmeal_u1_a5_error_007",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "oatmeal_u1_a5_error_008",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a1_normal_013",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a1_normal_014",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a1_normal_021",
+      "max_error": 6.705522537231445e-08
+    },
+    {
+      "video": "tea_u1_a1_normal_022",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a1_normal_029",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a1_normal_030",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a2_normal_007",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "tea_u1_a2_normal_008",
+      "max_error": 2.60770320892334e-08
+    },
+    {
+      "video": "tea_u1_a2_normal_023",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a2_normal_024",
+      "max_error": 8.940696716308594e-08
+    },
+    {
+      "video": "tea_u1_a2_normal_031",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a2_normal_032",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_001",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_002",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_003",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_004",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_009",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_010",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_011",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_012",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_017",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_018",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_019",
+      "max_error": 5.21540641784668e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_020",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_027",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_028",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u2_ak_normal_001",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u2_ak_normal_002",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u2_ak_normal_003",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u2_ak_normal_004",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u2_ak_normal_005",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u2_aq_normal_006",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u2_aq_normal_007",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u2_aq_normal_008",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u2_aq_normal_009",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u2_av_normal_010",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u2_av_normal_011",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u2_av_normal_012",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u2_ay_normal_013",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u2_ay_normal_014",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u2_ay_normal_015",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u2_ay_normal_016",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a1_normal_005",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a2_normal_015",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_025",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a1_error_017",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a1_error_018",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "tea_u1_a1_error_019",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a1_error_020",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a1_error_021",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a1_error_022",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a1_error_023",
+      "max_error": 1.2665987014770508e-07
+    },
+    {
+      "video": "tea_u1_a1_error_024",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a1_normal_006",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a2_error_001",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "tea_u1_a2_error_002",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a2_error_003",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "tea_u1_a2_error_004",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a2_error_005",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a2_error_006",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a2_error_007",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a2_error_008",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a2_normal_016",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a3_normal_026",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a4_error_025",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a4_error_026",
+      "max_error": 5.960464477539063e-08
+    },
+    {
+      "video": "tea_u1_a4_error_027",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a4_error_028",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a4_error_029",
+      "max_error": 5.960464477539063e-08
+    },
+    {
+      "video": "tea_u1_a4_error_030",
+      "max_error": 3.725290298461914e-08
+    },
+    {
+      "video": "tea_u1_a4_error_031",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a4_error_032",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a5_error_009",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a5_error_010",
+      "max_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "tea_u1_a5_error_011",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a5_error_012",
+      "max_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "tea_u1_a5_error_013",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a5_error_014",
+      "max_error": 4.470348358154297e-08
+    },
+    {
+      "video": "tea_u1_a5_error_015",
+      "max_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "tea_u1_a5_error_016",
+      "max_error": 1.4901161193847656e-08
+    }
+  ],
+  "checkpoint_sha256": "ec7f575ff5826c3480492a41b5edf46c4760fdba49477f9ade7674e09e0c4046",
+  "strict_loading": true,
+  "new_training_runs": 0,
+  "source_sha256": "29af51ddca367d24b8ada27c39bfd7207d05d7ed1dbf9c6b498ac339ef6c6bbf",
+  "seconds": 593.8788719773293
+}

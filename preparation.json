@@ -1,0 +1,62 @@
+{
+  "counts": {
+    "quesadilla": {
+      "train": {
+        "videos": 42,
+        "segments": 336,
+        "supervision_frames": 336
+      },
+      "val": {
+        "videos": 3,
+        "segments": 24,
+        "supervision_frames": 24
+      },
+      "test": {
+        "videos": 35,
+        "segments": 232,
+        "supervision_frames": 0
+      }
+    },
+    "pinwheels": {
+      "train": {
+        "videos": 36,
+        "segments": 466,
+        "supervision_frames": 715
+      },
+      "val": {
+        "videos": 3,
+        "segments": 39,
+        "supervision_frames": 60
+      },
+      "test": {
+        "videos": 45,
+        "segments": 468,
+        "supervision_frames": 0
+      }
+    }
+  },
+  "unavailable_teacher_records": [
+    {
+      "id": "pinwheels_u1_a1_normal_020:19",
+      "reason": "missing object names"
+    },
+    {
+      "id": "pinwheels_u1_a2_normal_012:11",
+      "reason": "missing object names"
+    },
+    {
+      "id": "pinwheels_u1_a6_normal_031:11",
+      "reason": "missing object names"
+    }
+  ],
+  "source_hashes": {
+    "manifest": "dcdcdc204e8733b3ac5cf4d342136e6afbc99938735570d3251a81e833fd2f41",
+    "code\\AEM\\data\\egoper\\detection\\quesadilla_detection.json": "e022ce8e930bd44b6b56580df039125b2b7400a6350b4f9c543d46841aa77c0b",
+    "code\\AEM\\data\\egoper\\scene_graph_json\\quesadilla_gpt4o.json": "1a4664b1a73d2901aa5d9558c45efc2a51848be4175b59686eeb3211c10407df",
+    "code\\AEM\\data\\egoper\\detection\\pinwheels_detection.json": "1e3b83d680b5cfd260898613aed1069d48efa6031568b5defbb5a887e6bd54ce",
+    "code\\AEM\\data\\egoper\\scene_graph_json\\pinwheels_gpt4o.json": "2f9c87a9860de032d62a442d8256a46952ca308e0e574bb3f17eafcf82bc3a1f"
+  },
+  "teacher_coordinates": "normalized cxcywh; converted through exact letterbox transform",
+  "normal_only_teacher": true,
+  "query_names_source": "majority object names in training teacher records per task/step"
+}

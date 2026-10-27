@@ -1,0 +1,17 @@
+{
+  "old_files_unchanged": true,
+  "strict_observer_checkpoint": "ec7f575ff5826c3480492a41b5edf46c4760fdba49477f9ade7674e09e0c4046",
+  "new_training_runs": 0,
+  "manifest_segments_verified": 3030,
+  "frame_references_verified": 9090,
+  "baseline_max_error": 8.881784197001252e-16,
+  "pooling_max_error": 1.2665987014770508e-07,
+  "max_sklearn_metric_error": 3.3306690738754696e-16,
+  "primary_ci_reconstructed": [
+    0.00035847544996712066,
+    0.04748708250434799
+  ],
+  "valid_primary_bootstrap": 874,
+  "report_sha256": "0eb98a9ce507dfcd0c9b71e90edf937a155108b16551906ac28563ecdae6cee4",
+  "source_sha256": "f12cae743619b12020c2c26a2e0d99fd41c23ecdb091fe24fa315e8e4da47bff"
+}

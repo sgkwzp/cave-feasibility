@@ -1,0 +1,14 @@
+{
+  "seed": 20261027,
+  "tasks": ["coffee", "oatmeal", "pinwheels", "quesadilla", "tea"],
+  "alphas": [0.0001, 0.001, 0.01, 0.1, 1.0, 10.0],
+  "folds": 5,
+  "bootstrap": 2000,
+  "equivalence_margin_r2": 0.02,
+  "min_fit_videos_per_step": 5,
+  "fit_split": "train",
+  "heldout_split": "val",
+  "target": "published state/relation sentences encoded by frozen EVA02; same target for every arm",
+  "target_centering": "fit-video step means only",
+  "no_network_training": true
+}

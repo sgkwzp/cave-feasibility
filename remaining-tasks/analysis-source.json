@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-27T07:17:19.010077+00:00",
+  "source_sha256": {
+    "extend_analyze.py": "2a1110f4f0057549308ab419ce5e4525b66245b99c46218b761d35f9c31294d0",
+    "extend_report.py": "884c875ec49f9ce9204f483304904cb425d10b86c447125182490c39b4c27b30"
+  },
+  "note": "Report geometry and QA additions; statistical analysis unchanged before reading task metrics.",
+  "completion": {
+    "utc": "2026-10-27T07:24:05.440661+00:00",
+    "final_source_sha256": {
+      "extend_analyze.py": "9f3b7bd1c70541fcc91f4e7e0de413741d753be449bd48facac07790111277c2",
+      "extend_report.py": "f12cae743619b12020c2c26a2e0d99fd41c23ecdb091fe24fa315e8e4da47bff"
+    },
+    "postscore_correction": "Added raw AEM reference after finding calibration-induced ties in oatmeal step 15. Frozen primary, fusions, bootstrap and gates unchanged."
+  }
+}

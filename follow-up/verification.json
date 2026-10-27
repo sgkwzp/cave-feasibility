@@ -1,0 +1,26 @@
+{
+  "original_files_unchanged": true,
+  "model_seed": 20261027,
+  "new_training_runs": 0,
+  "primary_intervals_reconstructed": {
+    "utility": {
+      "ci95": [
+        -0.0024833425475568713,
+        0.04606140967115548
+      ],
+      "valid_bootstrap": 1999
+    },
+    "observer": {
+      "ci95": [
+        -0.03918857426319295,
+        0.02844817196369014
+      ],
+      "valid_bootstrap": 1999
+    }
+  },
+  "max_sklearn_metric_error": 3.3306690738754696e-16,
+  "roi_pooling_max_error": 2.9802322387695312e-08,
+  "transfer_archive_sha256": "de68dd35cf46c82ef4a9327f1fe66856d99c5a8dc6b17536fffcea4d4e75d7e9",
+  "report_sha256": "93a350cb49018034c59c32bb3ebc6969f6e5b7453dcfe7f4128b1e022180aa65",
+  "report_source_sha256": "5def23c942e4fdf299beb25579ee5b001f31fa5a3a95849bd4cef24130f3bc8b"
+}

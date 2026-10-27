@@ -1,0 +1,64 @@
+{
+  "status": "complete",
+  "count": 1160,
+  "heldout_segments": 98,
+  "strict_checkpoints": [
+    "coffee",
+    "oatmeal",
+    "pinwheels",
+    "quesadilla",
+    "tea"
+  ],
+  "max_historic_score_error": 5.960464477539063e-08,
+  "readout_checks": {
+    "checks": [
+      {
+        "task": "coffee",
+        "sklearn_max_abs": 4.87890977618477e-18,
+        "coefficient_reconstruction_max_abs": 5.095750210681871e-18
+      },
+      {
+        "task": "oatmeal",
+        "sklearn_max_abs": 9.107298248878237e-18,
+        "coefficient_reconstruction_max_abs": 9.974659986866641e-18
+      },
+      {
+        "task": "pinwheels",
+        "sklearn_max_abs": 6.25584653524136e-17,
+        "coefficient_reconstruction_max_abs": 6.245004513516506e-17
+      },
+      {
+        "task": "quesadilla",
+        "sklearn_max_abs": 4.85722573273506e-16,
+        "coefficient_reconstruction_max_abs": 4.536301889679351e-16
+      },
+      {
+        "task": "tea",
+        "sklearn_max_abs": 9.122544841928815e-19,
+        "coefficient_reconstruction_max_abs": 7.37257477290143e-17
+      }
+    ],
+    "identical_ids": true,
+    "all_heldout_predictions_finite": true,
+    "no_train_val_video_overlap": true,
+    "inner_folds_train_only": true,
+    "saved_coefficients_verified": true,
+    "feature_sha256": {
+      "observations": "8c68d44cf00d0440a0549f85a9ace60b93e6d6f93621217b2dd3f98c91bf5e09",
+      "aem": "2a3b6a4c4747c3b086daba0aa62c56281452b45d91e5a8fa8262cc1ebb988a79",
+      "targets": "b2f6ad46b2577f867002a18f03a17d7da2c5834b5d481e0253ab1cf9ba5c1b86"
+    }
+  },
+  "config_unchanged": true,
+  "protocol_unchanged": true,
+  "manifest_unchanged": true,
+  "noise_floor_identifiable": false,
+  "step_macro_sensitivity": {
+    "ClassMean": 0.0,
+    "Token": -0.04727901967008317,
+    "Full": -0.03251050671929241,
+    "TailROI": -0.0033664134151727815
+  },
+  "report_sha256": "2e0c761554caa6fd31576ae159984d9cffb888edf4fe53e3f1401c59673f784c",
+  "results_sha256": "05853cf63eff2063208257778662f69563a8245cd87219f9d9b130fe0d3127ec"
+}

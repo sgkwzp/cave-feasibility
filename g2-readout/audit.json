@@ -1,0 +1,7 @@
+{
+  "input_files_rehashed": 4089,
+  "five_checkpoint_hashes_unchanged": true,
+  "prediction_error_reconstruction_max_abs": 0.0,
+  "all_targets_unit_norm": true,
+  "same_frame_independent_reannotations_available": false
+}

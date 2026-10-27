@@ -1,0 +1,665 @@
+{
+  "frozen_utc": "2026-10-27T06:43:32.018656+00:00",
+  "original": {
+    "execution.json": "9ca25f08c1e17b88452fefcd5867f36c131c5e13bf1c35cfceaffbd9c3ae2ea0",
+    "manifest.json": "9a8f4d4e23930548a035a1721cb3965129483a619e137d49691c86d95889be01",
+    "feature-index.json": "5ff4ad92629d16a3d01e7a5609fa3a19e7650203008ffe4fcbabed0f80188b7d",
+    "queries.json": "ee114748c19890b66f7513f31006d033f75d1ff60a74b04a48d736bda34d95ed",
+    "summary.json": "9349e9cf15b35d454f4e303d6e7c6c444d624c9e1cd39613b866f7aae70ccc62",
+    "status.json": "0bfd029b6e0469e7e9c25841b3539328e8b8e217a6039bfdcff46b869a35fcc7",
+    "models/20261027.pt": "ec7f575ff5826c3480492a41b5edf46c4760fdba49477f9ade7674e09e0c4046",
+    "source/common.py": "267f033769e7c7497402b63e44e2c68bdb2324b5c1d4f13cb5a288177412ae41",
+    "source/prepare.py": "0f0e971320ae5b60771cf7bf9284e98a54e82b514e26df176786431a7fd1b413",
+    "source/extract.py": "994cfc503cc3ea6ea0d569f09e1fc35a517f4bcd0e3a69163b6c716b8be29c61",
+    "source/detect.py": "8dfe4a9e1e0763342f845e57b60070481dcef276330bde21aaa3ec84a91aeff6",
+    "source/observer.py": "a62923f23bec2d6b3a5ff4a9ccffc033710952a7d26d7204000030ee32f228ed",
+    "source/train.py": "2c33f59c7d3d11ed51324dfb3d0c77bea2df5ac5a664a7ab29e2f54a48f59df0",
+    "source/evaluate.py": "9a244f9e7ba2e42d9269ba059ba01eb92400461fb4e8b70b8652d9f7ed13628d",
+    "source/run_pipeline.py": "d86c17d40b645ebf17c145f09d0260fd7feb578fc11f7cd8ccc0e5da425ee42f",
+    "source/verify.py": "03405fcc5d3dde112cb1f55749b00231efc76c5ce5c8ca4efa4348c49c0f0cfb",
+    "source/qa.py": "0082b00457f36e28cfccd53b55964eb41ce76108e9100915e911263cd5acbeb2",
+    "source/verify_local.py": "ce310ae4648b7850aa20d9eb6f88afa72a7efaf5f3e44fb423ba0064d8bc7d58",
+    "results/quesadilla/scores.json": "c10d3ef85436bb33351485cda678212b5edab6c1791b854fe5f9fb556fb71e8a",
+    "results/pinwheels/scores.json": "e9ee54ff2ab79b9ad4e4d1fdd491dbc12de552ace13fb4c97ee3539b8e1b6ee9",
+    "follow-up/results.json": "1bb1aba68a889e8419d173731282225e8497d8ea7cac39b0d702fdb76d70f9dc",
+    "follow-up/secondary-results.json": "0b06ebce308447d5a290574dcf25246510841ae3f7e116c8042e54ef1b377579",
+    "follow-up/report.md": "93a350cb49018034c59c32bb3ebc6969f6e5b7453dcfe7f4128b1e022180aa65",
+    "source/confirm_analysis.py": "a3e3b6dcb06d793a6a665647cf3d2fd926b2a42f9b24f293149174490efdf5eb"
+  },
+  "config_sha256": "1b8e562f3d1f428e05362aebfa3e649ca224aebd52838fd5fb7b5113943c335a",
+  "protocol_sha256": "ce328e6967acd9194f87df3c41a33857701166561ef5f6b78578d35d21246c28",
+  "manifest_sha256": "4d2fd53e710682d5217abd7358955936a1dfce836832a70c7e48dee201cd6242",
+  "queries_sha256": "66c143c9f457e0c7e69016e8eaa07474b5243bbc17b39eec7c845145aa6124e7",
+  "source_sha256": "95b147b94dedc744563d257f8285c02d689beb5d58e5f26dc13578ef0ccb0686",
+  "source_inputs": {
+    "ccfa-workfiles/experiments/aem-duration-complementarity/aem/coffee/scores.json": "2a3ed8d0a5e480c439c984fcb1dbee4bda40b52b9e08c71aa4f626769dbcbd51",
+    "ccfa-workfiles/experiments/aem-duration-complementarity/aem/coffee/signature.json": "946f1ab5b2fe33ddbaa522d140394be08b6b1afe73ca64f11b4266077d62a642",
+    "code/AEM/data/egoper/detection/coffee_detection.json": "34c82fb23b483dc7edc3881df740d64199d5eb8f393dc2ceefeb0052a3c88eb7",
+    "ccfa-workfiles/experiments/aem-duration-complementarity/aem/oatmeal/scores.json": "e7814518ab56517d7632b1586619a86316c5ce3ada4d439dcf4ff3e731349822",
+    "ccfa-workfiles/experiments/aem-duration-complementarity/aem/oatmeal/signature.json": "c41120f2c66894fd7184ffdb78c11c276179381a79cda95cf86b5e3585187271",
+    "code/AEM/data/egoper/detection/oatmeal_detection.json": "ce07dcb1b8580bee96d4593977fc90864926a00402f07584c3df374706095904",
+    "ccfa-workfiles/experiments/aem-duration-complementarity/aem/tea/scores.json": "0f2e75f6a8f2b2ab4f15e62b979e84916db62a079bce6ba81f4ae49052f807d6",
+    "ccfa-workfiles/experiments/aem-duration-complementarity/aem/tea/signature.json": "dc2daa4b5012aec8b2573b4798854396bc50c11d5b4c814704450797e9b910e6",
+    "code/AEM/data/egoper/detection/tea_detection.json": "eb21f3bf7e81829a765814712491409dc9385e5dd3e0cdcfb7946f9a21904358",
+    "ccfa-workfiles/experiments/aem-duration-complementarity/manifest.json": "4993e454858422b5f77965652247559340918052becfd435beba97577cc0f0b0",
+    "code/EgoPER/data/annotation.json": "a79f3677c1671dc3955faeae0857dbaec4aa1e9f2a6ca4b6ea9db41f0c723409"
+  },
+  "aem_signatures": {
+    "coffee": {
+      "checkpoint_sha256": "1832ee163f409fd690dd8604d8c8c07172b02e1564aab73817e943647c07fb88",
+      "source_sha256": {
+        "libs/modeling/effect_model.py": "f841f4a4ef74cd58c4e1ffbdf8febb33d7faf8605319d260c1ddb7a57a17ba47",
+        "libs/modeling/action_model.py": "10640695d6f320809801b8b28d7ce785a02202de2f990a013e11512331b617dd",
+        "libs/modeling/meta_archs.py": "ec4cf7d0e6a98ce72fefc5540d97f46d1b6cc1cd5c53babfce0224192f8aba32",
+        "libs/datasets/egoper.py": "80c80562a9f954b87de066f643aa9d76362acca82742def38ec52891e6115cee",
+        "libs/modeling/backbones.py": "ad9f8f2685e6fbf1b3b68c477fb033bd2f833c4ebe52fce10c667f7dc2044965",
+        "libs/datasets/data_utils.py": "50205854b303be5904b8856bf1df192506d60d9ef2e381824b9b92049840fb9f",
+        "libs/datasets/clip_encode.py": "03590c467f95fb58ec6bdbc248f3b5a507fbcf91b990ca85be4787c5a77782ba"
+      },
+      "config": {
+        "dataset_name": "EgoPER",
+        "train_split": "training",
+        "val_split": "validation",
+        "test_split": "test",
+        "model_name": "LocPointTransformer",
+        "devices": [
+          "cuda"
+        ],
+        "dataset": {
+          "num_classes": 16,
+          "trunc_thresh": 0.5,
+          "crop_ratio": [
+            0.9,
+            1.0
+          ],
+          "max_seq_len": 2304,
+          "background_ratio": 1.0,
+          "task": "coffee",
+          "root_dir": "/hy-tmp/fx12/ccfa-workfiles/experiments/aem-duration-complementarity/cache/aem-data",
+          "default_fps": 10,
+          "height": 720,
+          "width": 1280,
+          "num_node": 20
+        },
+        "model": {
+          "fpn_type": "identity",
+          "backbone_type": "convGCNTransformer",
+          "max_buffer_len_factor": 6.0,
+          "n_mha_win_size": 19,
+          "action_model_cfg": {
+            "txt_input_dim": 768,
+            "feat_dim": 128,
+            "prefix_length": 4,
+            "ce_loss_weight": 1.0,
+            "focal_loss_weight": 1.0
+          },
+          "effect_model_cfg": {
+            "vis_input_dim": 768,
+            "txt_input_dim": 768,
+            "node_type_dim": 16,
+            "feat_dim": 256,
+            "vis_proj_num_layers": 1,
+            "pos_embed_proj_num_layers": 2,
+            "effect_proj_num_layers": 3,
+            "segment_proj_num_layers": 1,
+            "effect_transformer_num_layers": 1,
+            "state_graph_encoder_num_layers": 2,
+            "spatial_graph_encoder_num_layers": 2,
+            "gnn_num_layers": 1,
+            "gnn_num_heads": 8,
+            "gnn_dropout": 0.0
+          },
+          "backbone_arch": [
+            2,
+            2,
+            5
+          ],
+          "scale_factor": 2,
+          "regression_range": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              8,
+              16
+            ],
+            [
+              16,
+              32
+            ],
+            [
+              32,
+              64
+            ],
+            [
+              64,
+              10000
+            ]
+          ],
+          "n_head": 4,
+          "embd_kernel_size": 3,
+          "input_dim": 2048,
+          "embd_dim": 512,
+          "embd_with_ln": true,
+          "fpn_dim": 512,
+          "fpn_with_ln": true,
+          "fpn_start_level": 0,
+          "head_dim": 512,
+          "head_kernel_size": 3,
+          "head_num_layers": 3,
+          "head_with_ln": true,
+          "use_abs_pe": false,
+          "use_rel_pe": false,
+          "num_node": 20,
+          "num_classes": 16,
+          "max_seq_len": 2304,
+          "train_cfg": {
+            "init_loss_norm": 100,
+            "clip_grad_l2norm": 1.0,
+            "cls_prior_prob": 0.01,
+            "center_sample": "radius",
+            "center_sample_radius": 1.5,
+            "loss_weight": 1.0,
+            "head_empty_cls": [],
+            "dropout": 0.0,
+            "droppath": 0.1,
+            "label_smoothing": 0.0
+          },
+          "test_cfg": {
+            "voting_thresh": 0.7,
+            "pre_nms_topk": 2000,
+            "max_seg_num": 200,
+            "min_score": 0.001,
+            "multiclass_nms": true,
+            "pre_nms_thresh": 0.001,
+            "iou_threshold": 0.1,
+            "nms_method": "soft",
+            "nms_sigma": 0.5,
+            "duration_thresh": 0.05,
+            "ext_score_file": null
+          }
+        },
+        "opt": {
+          "learning_rate": 0.0001,
+          "epochs": 130,
+          "weight_decay": 0.05,
+          "schedule_gamma": 0.7,
+          "type": "AdamW",
+          "momentum": 0.9,
+          "warmup": true,
+          "warmup_epochs": 5,
+          "schedule_type": "cosine",
+          "schedule_steps": []
+        },
+        "loader": {
+          "batch_size": 2,
+          "num_workers": 4
+        },
+        "train_cfg": {
+          "init_loss_norm": 100,
+          "clip_grad_l2norm": 1.0,
+          "cls_prior_prob": 0.01,
+          "center_sample": "radius",
+          "center_sample_radius": 1.5,
+          "loss_weight": 1.0,
+          "head_empty_cls": [],
+          "dropout": 0.0,
+          "droppath": 0.1,
+          "label_smoothing": 0.0
+        },
+        "test_cfg": {
+          "voting_thresh": 0.7,
+          "pre_nms_topk": 2000,
+          "max_seg_num": 200,
+          "min_score": 0.001,
+          "multiclass_nms": true,
+          "pre_nms_thresh": 0.001,
+          "iou_threshold": 0.1,
+          "nms_method": "soft",
+          "nms_sigma": 0.5,
+          "duration_thresh": 0.05,
+          "ext_score_file": null
+        },
+        "output_folder": "checkpoints/egoper/",
+        "init_rand_seed": 1234567891
+      },
+      "exporter_sha256": "e2346a4628223829e2ef8a2629d9c950c69982ea62ca88423497d7a0f1d1519e",
+      "manifest_sha256": "4993e454858422b5f77965652247559340918052becfd435beba97577cc0f0b0",
+      "exporter_sha256_history": [
+        "a087e15afed40a67d1ba42550cac1c77ce0ffbe6d116e23bca30221b110d6ab4",
+        "e2346a4628223829e2ef8a2629d9c950c69982ea62ca88423497d7a0f1d1519e"
+      ]
+    },
+    "oatmeal": {
+      "checkpoint_sha256": "f46386983b291f3a90a05921dbda746541ec131f63e1bff5f3f9c651aa9d1ab4",
+      "source_sha256": {
+        "libs/modeling/effect_model.py": "f841f4a4ef74cd58c4e1ffbdf8febb33d7faf8605319d260c1ddb7a57a17ba47",
+        "libs/modeling/action_model.py": "10640695d6f320809801b8b28d7ce785a02202de2f990a013e11512331b617dd",
+        "libs/modeling/meta_archs.py": "ec4cf7d0e6a98ce72fefc5540d97f46d1b6cc1cd5c53babfce0224192f8aba32",
+        "libs/datasets/egoper.py": "80c80562a9f954b87de066f643aa9d76362acca82742def38ec52891e6115cee",
+        "libs/modeling/backbones.py": "ad9f8f2685e6fbf1b3b68c477fb033bd2f833c4ebe52fce10c667f7dc2044965",
+        "libs/datasets/data_utils.py": "50205854b303be5904b8856bf1df192506d60d9ef2e381824b9b92049840fb9f",
+        "libs/datasets/clip_encode.py": "03590c467f95fb58ec6bdbc248f3b5a507fbcf91b990ca85be4787c5a77782ba"
+      },
+      "config": {
+        "dataset_name": "EgoPER",
+        "train_split": "training",
+        "val_split": "validation",
+        "test_split": "test",
+        "model_name": "LocPointTransformer",
+        "devices": [
+          "cuda"
+        ],
+        "dataset": {
+          "num_classes": 12,
+          "trunc_thresh": 0.5,
+          "crop_ratio": [
+            0.9,
+            1.0
+          ],
+          "max_seq_len": 2304,
+          "background_ratio": 1.0,
+          "task": "oatmeal",
+          "root_dir": "/hy-tmp/fx12/ccfa-workfiles/experiments/aem-duration-complementarity/cache/aem-data",
+          "default_fps": 10,
+          "height": 720,
+          "width": 1280,
+          "num_node": 20
+        },
+        "model": {
+          "fpn_type": "identity",
+          "backbone_type": "convGCNTransformer",
+          "max_buffer_len_factor": 6.0,
+          "n_mha_win_size": 19,
+          "action_model_cfg": {
+            "txt_input_dim": 768,
+            "feat_dim": 128,
+            "prefix_length": 4,
+            "ce_loss_weight": 1.0,
+            "focal_loss_weight": 1.0
+          },
+          "effect_model_cfg": {
+            "vis_input_dim": 768,
+            "txt_input_dim": 768,
+            "node_type_dim": 16,
+            "feat_dim": 256,
+            "vis_proj_num_layers": 1,
+            "pos_embed_proj_num_layers": 2,
+            "effect_proj_num_layers": 2,
+            "segment_proj_num_layers": 1,
+            "effect_transformer_num_layers": 2,
+            "state_graph_encoder_num_layers": 2,
+            "spatial_graph_encoder_num_layers": 2,
+            "gnn_num_layers": 1,
+            "gnn_num_heads": 8,
+            "gnn_dropout": 0.0
+          },
+          "backbone_arch": [
+            2,
+            2,
+            5
+          ],
+          "scale_factor": 2,
+          "regression_range": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              8,
+              16
+            ],
+            [
+              16,
+              32
+            ],
+            [
+              32,
+              64
+            ],
+            [
+              64,
+              10000
+            ]
+          ],
+          "n_head": 4,
+          "embd_kernel_size": 3,
+          "input_dim": 2048,
+          "embd_dim": 512,
+          "embd_with_ln": true,
+          "fpn_dim": 512,
+          "fpn_with_ln": true,
+          "fpn_start_level": 0,
+          "head_dim": 512,
+          "head_kernel_size": 3,
+          "head_num_layers": 3,
+          "head_with_ln": true,
+          "use_abs_pe": false,
+          "use_rel_pe": false,
+          "num_node": 20,
+          "num_classes": 12,
+          "max_seq_len": 2304,
+          "train_cfg": {
+            "init_loss_norm": 100,
+            "clip_grad_l2norm": 1.0,
+            "cls_prior_prob": 0.01,
+            "center_sample": "radius",
+            "center_sample_radius": 1.5,
+            "loss_weight": 1.0,
+            "head_empty_cls": [],
+            "dropout": 0.0,
+            "droppath": 0.1,
+            "label_smoothing": 0.0
+          },
+          "test_cfg": {
+            "voting_thresh": 0.7,
+            "pre_nms_topk": 2000,
+            "max_seg_num": 200,
+            "min_score": 0.001,
+            "multiclass_nms": true,
+            "pre_nms_thresh": 0.001,
+            "iou_threshold": 0.1,
+            "nms_method": "soft",
+            "nms_sigma": 0.5,
+            "duration_thresh": 0.05,
+            "ext_score_file": null
+          }
+        },
+        "opt": {
+          "learning_rate": 0.001,
+          "epochs": 130,
+          "weight_decay": 0.05,
+          "schedule_gamma": 0.7,
+          "type": "AdamW",
+          "momentum": 0.9,
+          "warmup": true,
+          "warmup_epochs": 5,
+          "schedule_type": "cosine",
+          "schedule_steps": []
+        },
+        "loader": {
+          "batch_size": 2,
+          "num_workers": 4
+        },
+        "train_cfg": {
+          "init_loss_norm": 100,
+          "clip_grad_l2norm": 1.0,
+          "cls_prior_prob": 0.01,
+          "center_sample": "radius",
+          "center_sample_radius": 1.5,
+          "loss_weight": 1.0,
+          "head_empty_cls": [],
+          "dropout": 0.0,
+          "droppath": 0.1,
+          "label_smoothing": 0.0
+        },
+        "test_cfg": {
+          "voting_thresh": 0.7,
+          "pre_nms_topk": 2000,
+          "max_seg_num": 200,
+          "min_score": 0.001,
+          "multiclass_nms": true,
+          "pre_nms_thresh": 0.001,
+          "iou_threshold": 0.1,
+          "nms_method": "soft",
+          "nms_sigma": 0.5,
+          "duration_thresh": 0.05,
+          "ext_score_file": null
+        },
+        "output_folder": "checkpoints/egoper/",
+        "init_rand_seed": 1234567891
+      },
+      "exporter_sha256": "e2346a4628223829e2ef8a2629d9c950c69982ea62ca88423497d7a0f1d1519e",
+      "manifest_sha256": "4993e454858422b5f77965652247559340918052becfd435beba97577cc0f0b0",
+      "exporter_sha256_history": [
+        "e2346a4628223829e2ef8a2629d9c950c69982ea62ca88423497d7a0f1d1519e"
+      ]
+    },
+    "tea": {
+      "checkpoint_sha256": "8cec6a936c6c3e2bc2c65bec90e7edce92fc6c418c63c1bbcd56737b8b6b54ac",
+      "source_sha256": {
+        "libs/modeling/effect_model.py": "f841f4a4ef74cd58c4e1ffbdf8febb33d7faf8605319d260c1ddb7a57a17ba47",
+        "libs/modeling/action_model.py": "10640695d6f320809801b8b28d7ce785a02202de2f990a013e11512331b617dd",
+        "libs/modeling/meta_archs.py": "ec4cf7d0e6a98ce72fefc5540d97f46d1b6cc1cd5c53babfce0224192f8aba32",
+        "libs/datasets/egoper.py": "80c80562a9f954b87de066f643aa9d76362acca82742def38ec52891e6115cee",
+        "libs/modeling/backbones.py": "ad9f8f2685e6fbf1b3b68c477fb033bd2f833c4ebe52fce10c667f7dc2044965",
+        "libs/datasets/data_utils.py": "50205854b303be5904b8856bf1df192506d60d9ef2e381824b9b92049840fb9f",
+        "libs/datasets/clip_encode.py": "03590c467f95fb58ec6bdbc248f3b5a507fbcf91b990ca85be4787c5a77782ba"
+      },
+      "config": {
+        "dataset_name": "EgoPER",
+        "train_split": "training",
+        "val_split": "validation",
+        "test_split": "test",
+        "model_name": "LocPointTransformer",
+        "devices": [
+          "cuda"
+        ],
+        "dataset": {
+          "num_classes": 11,
+          "trunc_thresh": 0.5,
+          "crop_ratio": [
+            0.9,
+            1.0
+          ],
+          "max_seq_len": 2304,
+          "background_ratio": 1.0,
+          "task": "tea",
+          "root_dir": "/hy-tmp/fx12/ccfa-workfiles/experiments/aem-duration-complementarity/cache/aem-data",
+          "default_fps": 10,
+          "height": 720,
+          "width": 1280,
+          "num_node": 20
+        },
+        "model": {
+          "fpn_type": "identity",
+          "backbone_type": "convGCNTransformer",
+          "max_buffer_len_factor": 6.0,
+          "n_mha_win_size": 19,
+          "action_model_cfg": {
+            "txt_input_dim": 768,
+            "feat_dim": 128,
+            "prefix_length": 4,
+            "ce_loss_weight": 1.0,
+            "focal_loss_weight": 1.0
+          },
+          "effect_model_cfg": {
+            "vis_input_dim": 768,
+            "txt_input_dim": 768,
+            "node_type_dim": 16,
+            "feat_dim": 256,
+            "vis_proj_num_layers": 1,
+            "pos_embed_proj_num_layers": 2,
+            "effect_proj_num_layers": 1,
+            "segment_proj_num_layers": 1,
+            "effect_transformer_num_layers": 1,
+            "state_graph_encoder_num_layers": 2,
+            "spatial_graph_encoder_num_layers": 2,
+            "gnn_num_layers": 1,
+            "gnn_num_heads": 8,
+            "gnn_dropout": 0.0
+          },
+          "backbone_arch": [
+            2,
+            2,
+            5
+          ],
+          "scale_factor": 2,
+          "regression_range": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              8,
+              16
+            ],
+            [
+              16,
+              32
+            ],
+            [
+              32,
+              64
+            ],
+            [
+              64,
+              10000
+            ]
+          ],
+          "n_head": 4,
+          "embd_kernel_size": 3,
+          "input_dim": 2048,
+          "embd_dim": 512,
+          "embd_with_ln": true,
+          "fpn_dim": 512,
+          "fpn_with_ln": true,
+          "fpn_start_level": 0,
+          "head_dim": 512,
+          "head_kernel_size": 3,
+          "head_num_layers": 3,
+          "head_with_ln": true,
+          "use_abs_pe": false,
+          "use_rel_pe": false,
+          "num_node": 20,
+          "num_classes": 11,
+          "max_seq_len": 2304,
+          "train_cfg": {
+            "init_loss_norm": 100,
+            "clip_grad_l2norm": 1.0,
+            "cls_prior_prob": 0.01,
+            "center_sample": "radius",
+            "center_sample_radius": 1.5,
+            "loss_weight": 1.0,
+            "head_empty_cls": [],
+            "dropout": 0.0,
+            "droppath": 0.1,
+            "label_smoothing": 0.0
+          },
+          "test_cfg": {
+            "voting_thresh": 0.7,
+            "pre_nms_topk": 2000,
+            "max_seg_num": 200,
+            "min_score": 0.001,
+            "multiclass_nms": true,
+            "pre_nms_thresh": 0.001,
+            "iou_threshold": 0.1,
+            "nms_method": "soft",
+            "nms_sigma": 0.5,
+            "duration_thresh": 0.05,
+            "ext_score_file": null
+          }
+        },
+        "opt": {
+          "learning_rate": 0.0005,
+          "epochs": 130,
+          "weight_decay": 0.05,
+          "schedule_gamma": 0.7,
+          "type": "AdamW",
+          "momentum": 0.9,
+          "warmup": true,
+          "warmup_epochs": 5,
+          "schedule_type": "cosine",
+          "schedule_steps": []
+        },
+        "loader": {
+          "batch_size": 2,
+          "num_workers": 4
+        },
+        "train_cfg": {
+          "init_loss_norm": 100,
+          "clip_grad_l2norm": 1.0,
+          "cls_prior_prob": 0.01,
+          "center_sample": "radius",
+          "center_sample_radius": 1.5,
+          "loss_weight": 1.0,
+          "head_empty_cls": [],
+          "dropout": 0.0,
+          "droppath": 0.1,
+          "label_smoothing": 0.0
+        },
+        "test_cfg": {
+          "voting_thresh": 0.7,
+          "pre_nms_topk": 2000,
+          "max_seg_num": 200,
+          "min_score": 0.001,
+          "multiclass_nms": true,
+          "pre_nms_thresh": 0.001,
+          "iou_threshold": 0.1,
+          "nms_method": "soft",
+          "nms_sigma": 0.5,
+          "duration_thresh": 0.05,
+          "ext_score_file": null
+        },
+        "output_folder": "checkpoints/egoper/",
+        "init_rand_seed": 1234567891
+      },
+      "exporter_sha256": "e2346a4628223829e2ef8a2629d9c950c69982ea62ca88423497d7a0f1d1519e",
+      "manifest_sha256": "4993e454858422b5f77965652247559340918052becfd435beba97577cc0f0b0",
+      "exporter_sha256_history": [
+        "e2346a4628223829e2ef8a2629d9c950c69982ea62ca88423497d7a0f1d1519e"
+      ]
+    }
+  },
+  "counts": {
+    "coffee": {
+      "train": {
+        "videos": 27,
+        "segments": 475
+      },
+      "val": {
+        "videos": 3,
+        "segments": 55
+      },
+      "test": {
+        "videos": 38,
+        "segments": 677
+      }
+    },
+    "oatmeal": {
+      "train": {
+        "videos": 39,
+        "segments": 583
+      },
+      "val": {
+        "videos": 3,
+        "segments": 45
+      },
+      "test": {
+        "videos": 35,
+        "segments": 462
+      }
+    },
+    "tea": {
+      "train": {
+        "videos": 42,
+        "segments": 401
+      },
+      "val": {
+        "videos": 3,
+        "segments": 30
+      },
+      "test": {
+        "videos": 35,
+        "segments": 302
+      }
+    }
+  },
+  "baseline_reconstruction_max_errors": {
+    "pinwheels": 8.881784197001252e-16,
+    "quesadilla": 4.440892098500626e-16
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "weights_sha256": "f753bca0e8327f77e8845b0af2510d599c3e4614237007b48078c791f2cf391c",
+  "parent_feature_signature_sha256": "f1059159ca36d0bd598ff3ebad7d98da2973848e7c6894c350093ea7e3119149",
+  "manifest_sha256": "4d2fd53e710682d5217abd7358955936a1dfce836832a70c7e48dee201cd6242",
+  "source_sha256": "f434963a7c5c69b5d41a0fc9485bd939be9f6fea44e7377a07de11fe5dfcb6f0",
+  "seconds": 825.4525278657675,
+  "encoding_seconds": 115.27318811416626,
+  "frames": 9090
+}

@@ -1,0 +1,26 @@
+{
+  "seed": 20261027,
+  "bootstrap": 2000,
+  "tasks": ["quesadilla", "pinwheels"],
+  "eligible_steps": {"quesadilla": [1,6,7,8], "pinwheels": [1,2,3,4,5,6,7,11,12]},
+  "fpr_budgets": [0.05,0.1,0.2],
+  "primary_utility": ["AEM+Duration+Learned", "AEM+Duration"],
+  "primary_observer": ["AEM+Learned", "AEM+ROI"],
+  "fusion": "unweighted arithmetic mean of existing normal-calibrated channel scores",
+  "partial_auc": "integral of ROC over FPR [0,0.1], divided by 0.1; random=0.05",
+  "bootstrap_unit": "video, paired within each task; independent task draws; equal-task mean",
+  "next_stage_gate": {
+    "utility_macro_auc_ci_lower_positive": true,
+    "utility_macro_auc_both_task_points_positive": true,
+    "utility_macro_pauc_mean_nonnegative": true,
+    "observer_macro_auc_ci_lower_positive": true
+  },
+  "gate_interpretation": "Development resource gate only; failure is insufficient support for expansion, not proof of no information. Old G1 remains failed.",
+  "no_training": true,
+  "no_test_weight_selection": true,
+  "no_CEI_GMM_CC4D": true,
+  "fixed_roi": "reuse frozen source/detect.py, original thresholds and same 3 frames, EVA02 features, pool_vector and density",
+  "centroid_diagnostic": "four raw attention centroids, standardize on normal train, LedoitWolf per step, leave-one-video distances, no unit normalization or PCA",
+  "normal_threshold": "90th percentile (higher) on existing normal validation; threshold fixed before test evaluation",
+  "caution": "Both tasks have been explored. Conditional bootstrap excludes training-seed and normal-reference uncertainty. Validation was also used for checkpoint selection. Calibration is empirical."
+}

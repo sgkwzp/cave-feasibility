@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "quesadilla": {
+      "segments": 592,
+      "test": 232,
+      "normal_val": 24,
+      "error_test": 60
+    },
+    "pinwheels": {
+      "segments": 973,
+      "test": 468,
+      "normal_val": 39,
+      "error_test": 125
+    }
+  },
+  "max_macro_auc_reconstruction_error": 0.0,
+  "AEM_scores_unchanged": true,
+  "all_tail_frame_indices_match_OEV": true,
+  "no_test_teacher_supervision": true,
+  "checkpoint_hashes_verified": true,
+  "unchanged_launch_inputs": [
+    "execution.json",
+    "manifest.json",
+    "supervision.json",
+    "feature-signature.json",
+    "source/common.py",
+    "source/detect.py",
+    "source/evaluate.py",
+    "source/extract.py",
+    "source/observer.py",
+    "source/qa.py",
+    "source/run_pipeline.py",
+    "source/train.py",
+    "source/verify.py"
+  ],
+  "source_sha256": "03405fcc5d3dde112cb1f55749b00231efc76c5ce5c8ca4efa4348c49c0f0cfb"
+}

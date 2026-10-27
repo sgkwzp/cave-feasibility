@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-10-27T06:16:23.946181+00:00",
+  "original": {
+    "execution.json": "9ca25f08c1e17b88452fefcd5867f36c131c5e13bf1c35cfceaffbd9c3ae2ea0",
+    "manifest.json": "9a8f4d4e23930548a035a1721cb3965129483a619e137d49691c86d95889be01",
+    "feature-index.json": "5ff4ad92629d16a3d01e7a5609fa3a19e7650203008ffe4fcbabed0f80188b7d",
+    "queries.json": "ee114748c19890b66f7513f31006d033f75d1ff60a74b04a48d736bda34d95ed",
+    "summary.json": "9349e9cf15b35d454f4e303d6e7c6c444d624c9e1cd39613b866f7aae70ccc62",
+    "status.json": "0bfd029b6e0469e7e9c25841b3539328e8b8e217a6039bfdcff46b869a35fcc7",
+    "models/20261027.pt": "ec7f575ff5826c3480492a41b5edf46c4760fdba49477f9ade7674e09e0c4046",
+    "source/common.py": "267f033769e7c7497402b63e44e2c68bdb2324b5c1d4f13cb5a288177412ae41",
+    "source/prepare.py": "0f0e971320ae5b60771cf7bf9284e98a54e82b514e26df176786431a7fd1b413",
+    "source/extract.py": "994cfc503cc3ea6ea0d569f09e1fc35a517f4bcd0e3a69163b6c716b8be29c61",
+    "source/detect.py": "8dfe4a9e1e0763342f845e57b60070481dcef276330bde21aaa3ec84a91aeff6",
+    "source/observer.py": "a62923f23bec2d6b3a5ff4a9ccffc033710952a7d26d7204000030ee32f228ed",
+    "source/train.py": "2c33f59c7d3d11ed51324dfb3d0c77bea2df5ac5a664a7ab29e2f54a48f59df0",
+    "source/evaluate.py": "9a244f9e7ba2e42d9269ba059ba01eb92400461fb4e8b70b8652d9f7ed13628d",
+    "source/run_pipeline.py": "d86c17d40b645ebf17c145f09d0260fd7feb578fc11f7cd8ccc0e5da425ee42f",
+    "source/verify.py": "03405fcc5d3dde112cb1f55749b00231efc76c5ce5c8ca4efa4348c49c0f0cfb",
+    "source/qa.py": "0082b00457f36e28cfccd53b55964eb41ce76108e9100915e911263cd5acbeb2",
+    "source/verify_local.py": "ce310ae4648b7850aa20d9eb6f88afa72a7efaf5f3e44fb423ba0064d8bc7d58",
+    "results/quesadilla/scores.json": "c10d3ef85436bb33351485cda678212b5edab6c1791b854fe5f9fb556fb71e8a",
+    "results/pinwheels/scores.json": "e9ee54ff2ab79b9ad4e4d1fdd491dbc12de552ace13fb4c97ee3539b8e1b6ee9"
+  },
+  "config_sha256": "40666a214780c00e5cffcfd6056bec27cd9e2e51a3c8bfab5d8ef6dbd9343cd5",
+  "protocol_sha256": "4f24ce9a118ae7c5a6e2816633f265801605d5c0a6766c57386b1f41bd74bd76"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "verified",
+  "files": 235,
+  "archive_sha256": "faccb47023fcfc3d109a925419adbbebb969a967e515d2886725a19ef92b0ca8",
+  "models_retained_on_server": "/hy-tmp/fx12/ccfa-workfiles/experiments/cave-feasibility/g2-readout/models",
+  "note": "Local features, fits and source reproduce probe coefficients; large coefficients remain on server."
+}

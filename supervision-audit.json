@@ -1,0 +1,30 @@
+{
+  "source": "published normal-only teacher metadata, before performance evaluation",
+  "task_counts": {
+    "quesadilla": {
+      "train": {
+        "frames": 336,
+        "attribute_frames": 150,
+        "relation_frames": 150
+      },
+      "val": {
+        "frames": 24,
+        "attribute_frames": 14,
+        "relation_frames": 14
+      }
+    },
+    "pinwheels": {
+      "train": {
+        "frames": 715,
+        "attribute_frames": 310,
+        "relation_frames": 310
+      },
+      "val": {
+        "frames": 60,
+        "attribute_frames": 25,
+        "relation_frames": 25
+      }
+    }
+  },
+  "test_video_overlap_with_teacher": []
+}

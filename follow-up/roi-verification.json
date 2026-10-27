@@ -1,0 +1,666 @@
+{
+  "original_inputs_unchanged": true,
+  "pooling_checks": [
+    {
+      "video": "quesadilla_u1_a2_normal_002",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_normal_004",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_normal_008",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_normal_009",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_normal_018",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_normal_020",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_normal_022",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_normal_024",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a3_normal_001",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a3_normal_003",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "quesadilla_u1_a3_normal_007",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a3_normal_017",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "quesadilla_u1_a3_normal_019",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "quesadilla_u1_a3_normal_021",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "quesadilla_u1_a3_normal_023",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a3_normal_027",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_010",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_011",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_012",
+      "max_abs_error": 1.1175870895385742e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_013",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_014",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_028",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_029",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_030",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_031",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_032",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u2_aq_normal_001",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u2_aq_normal_002",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "quesadilla_u2_aq_normal_003",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u2_aq_normal_004",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u2_av_normal_005",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u2_av_normal_006",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "quesadilla_u2_av_normal_007",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u2_av_normal_008",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "quesadilla_u2_ay_normal_009",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "quesadilla_u2_ay_normal_010",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u2_ay_normal_011",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u2_ay_normal_012",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u2_az_normal_013",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "quesadilla_u2_az_normal_014",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "quesadilla_u2_az_normal_015",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "quesadilla_u2_az_normal_016",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "quesadilla_u1_a3_normal_005",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_015",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_025",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a1_error_009",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a1_error_010",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a1_error_011",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a1_error_012",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a1_error_013",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a1_error_014",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a1_error_015",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a1_error_016",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_error_025",
+      "max_abs_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_error_026",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_error_027",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_error_028",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_error_029",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_error_030",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_error_031",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_error_032",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a2_normal_006",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a4_error_017",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a4_error_018",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a4_error_019",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "quesadilla_u1_a4_error_020",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a4_error_021",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a4_error_022",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a4_error_023",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a4_error_024",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_error_001",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_error_002",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_error_003",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_error_004",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_error_005",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_error_006",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_error_007",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "quesadilla_u1_a5_error_008",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_016",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "quesadilla_u1_a5_normal_026",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_normal_017",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_normal_018",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_normal_020",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_normal_021",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_001",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_002",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_003",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_004",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_007",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_008",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_009",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_010",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_011",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_012",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_014",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_022",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_023",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_024",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_030",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_normal_027",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_normal_028",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "pinwheels_u1_a5_normal_029",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a6_normal_013",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "pinwheels_u1_a6_normal_019",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a6_normal_031",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a6_normal_032",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "pinwheels_u2_ak_normal_001",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u2_ak_normal_002",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "pinwheels_u2_ak_normal_003",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u2_ak_normal_004",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u2_ak_normal_005",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u2_aq_normal_006",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u2_aq_normal_007",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "pinwheels_u2_aq_normal_008",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u2_ay_normal_009",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u2_ay_normal_010",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_005",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_015",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_025",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_error_001",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_error_002",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_error_003",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_error_004",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_error_005",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_error_006",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_error_007",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_error_008",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_error_009",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_error_010",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "pinwheels_u1_a1_error_011",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a1_normal_016",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_error_012",
+      "max_abs_error": 2.9802322387695312e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_error_013",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_error_014",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "pinwheels_u1_a2_error_015",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_error_018",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_error_019",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_error_020",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_error_030",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_error_031",
+      "max_abs_error": 0.0
+    },
+    {
+      "video": "pinwheels_u1_a2_error_035",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "pinwheels_u1_a2_error_036",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "pinwheels_u1_a2_error_037",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a2_normal_006",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a4_error_016",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a4_error_017",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a4_error_021",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a4_error_022",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a4_error_023",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a4_error_024",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a4_error_032",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a4_error_033",
+      "max_abs_error": 2.2351741790771484e-08
+    },
+    {
+      "video": "pinwheels_u1_a4_error_034",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_error_025",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_error_026",
+      "max_abs_error": 7.450580596923828e-09
+    },
+    {
+      "video": "pinwheels_u1_a5_error_027",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_error_028",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_error_029",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_error_038",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_error_039",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_error_040",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_error_041",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_error_042",
+      "max_abs_error": 1.4901161193847656e-08
+    },
+    {
+      "video": "pinwheels_u1_a5_normal_026",
+      "max_abs_error": 1.4901161193847656e-08
+    }
+  ],
+  "segments": 1565,
+  "videos": 164,
+  "seconds": 302.0005742534995,
+  "source_sha256": "cd1c26099930022b5315ccedae9878cea61424e71843d4841ddbd417d24f78c1",
+  "config_sha256": "40666a214780c00e5cffcfd6056bec27cd9e2e51a3c8bfab5d8ef6dbd9343cd5"
+}

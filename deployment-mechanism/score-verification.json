@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "task": "coffee",
+      "arm": "Pre",
+      "segments": 1207,
+      "train": 475
+    },
+    {
+      "task": "coffee",
+      "arm": "Pred",
+      "segments": 1317,
+      "train": 518
+    },
+    {
+      "task": "pinwheels",
+      "arm": "Pre",
+      "segments": 973,
+      "train": 466
+    },
+    {
+      "task": "pinwheels",
+      "arm": "Pred",
+      "segments": 1590,
+      "train": 733
+    },
+    {
+      "task": "oatmeal",
+      "arm": "Pre",
+      "segments": 1090,
+      "train": 583
+    },
+    {
+      "task": "oatmeal",
+      "arm": "Pred",
+      "segments": 1335,
+      "train": 638
+    },
+    {
+      "task": "quesadilla",
+      "arm": "Pre",
+      "segments": 592,
+      "train": 336
+    },
+    {
+      "task": "quesadilla",
+      "arm": "Pred",
+      "segments": 717,
+      "train": 346
+    },
+    {
+      "task": "tea",
+      "arm": "Pre",
+      "segments": 733,
+      "train": 401
+    },
+    {
+      "task": "tea",
+      "arm": "Pred",
+      "segments": 868,
+      "train": 408
+    }
+  ],
+  "max_anchor_error": 1.341104507446289e-07,
+  "source_sha256": "43baee8c345bda1babfd67ec37039d7bf9adb32fda264ad7a7a25158dbfc2012",
+  "density_source_sha256": "9a244f9e7ba2e42d9269ba059ba01eb92400461fb4e8b70b8652d9f7ed13628d",
+  "seconds": 8.17072531580925
+}

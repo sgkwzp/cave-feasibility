@@ -1,0 +1,7 @@
+{
+  "manifest_sha256": "0fce0cff82bdd44c929331c2eef5c6b5c5f7c4f3220bee0c86bdc0c934cdca55",
+  "source_sha256": "430cd2f4dde41721a680455449ddbac0ffcbf2469eee7c3e3e487acdfc3ddba7",
+  "eva_sha256": "f753bca0e8327f77e8845b0af2510d599c3e4614237007b48078c791f2cf391c",
+  "detector_sha256": "1a2412ef99bd74bcd3c2a246fa1e48581f8889a1300c9051974741314fc042f3",
+  "training_runs": 0
+}

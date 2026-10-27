@@ -1,0 +1,13 @@
+{
+  "encoder": "EVA02-L-14-336",
+  "weights_sha256": "f753bca0e8327f77e8845b0af2510d599c3e4614237007b48078c791f2cf391c",
+  "manifest_sha256": "9a8f4d4e23930548a035a1721cb3965129483a619e137d49691c86d95889be01",
+  "supervision_sha256": "26b290cc27fff2a9d50dd4128ff18bf6ddaa831143393f46e64ed09f03a82f42",
+  "source_sha256": "994cfc503cc3ea6ea0d569f09e1fc35a517f4bcd0e3a69163b6c716b8be29c61",
+  "torch": "1.13.0+cu117",
+  "open_clip": "2.32.0",
+  "device": "NVIDIA GeForce RTX 4090",
+  "geometry": "336 square letterbox; original-relative patch coordinates",
+  "precision": "fp16 stored patches; float32 downstream",
+  "frames": "exact OEV old tail indices; exact published teacher RGB archive keys"
+}

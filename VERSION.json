@@ -1,0 +1,69 @@
+{
+  "version": "v2026.10.27-tail-roi-evidence",
+  "snapshot_date": "2026-10-27",
+  "repository": "sgkwzp/cave-feasibility",
+  "primary_stage": "deployment-mechanism",
+  "status": "retain_test_time_tail_observation_pause_fusion_expansion",
+  "source_set_sha256": "013574ad78209445e8ee745f17111d24418abc62e607f25b88f258e9e3a95378",
+  "primary_entrypoints": [
+    "source/validate_prepare.py",
+    "source/validate_observe.py",
+    "source/validate_score.py",
+    "source/validate_analyze.py",
+    "source/validate_report.py"
+  ],
+  "shared_core": [
+    "source/common.py",
+    "source/extract.py",
+    "source/detect.py",
+    "source/observer.py",
+    "source/evaluate.py",
+    "source/confirm_analysis.py"
+  ],
+  "seed": 20261027,
+  "new_neural_network_training_runs": 0,
+  "tasks": [
+    "coffee",
+    "pinwheels",
+    "oatmeal",
+    "quesadilla",
+    "tea"
+  ],
+  "source_policy": "Original research Python files preserved byte-for-byte; publication files only are newly added.",
+  "evidence_units": "AUROC contrasts in [0,1] units; multiply by 100 for percentage points",
+  "evidence": {
+    "predicted_roi_increment": {
+      "point": 0.01905634821063107,
+      "ci95": [
+        0.01004043588263812,
+        0.027896392883294718
+      ],
+      "valid_bootstrap": 2000
+    },
+    "predicted_vs_raw_aem": {
+      "point": 0.0018208653974491895,
+      "ci95": [
+        -0.015798578887691407,
+        0.017895287784971826
+      ],
+      "valid_bootstrap": 2000
+    },
+    "gt_tail_vs_pre": {
+      "point": 0.04477759636732892,
+      "ci95": [
+        0.024760336495392353,
+        0.06610211033590876
+      ],
+      "valid_bootstrap": 880
+    }
+  },
+  "known_limits": [
+    "No significant superiority to raw AEM established.",
+    "Single seed; all five EgoPER tasks have prior exploratory use.",
+    "Pinwheels/Oatmeal checkpoint-label alignment caveat retained.",
+    "G2 did not validate effect-imputation or token-bottleneck narrative.",
+    "No standalone fresh-environment reproduction is claimed; original data and upstream caches required."
+  ],
+  "archived_diagnostic": "g2-readout; not the beneficial method release",
+  "unexecuted_plan": "New conditional-matching analysis in follow-up-plan.md"
+}

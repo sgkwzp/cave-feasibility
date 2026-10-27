@@ -1,0 +1,62 @@
+{
+  "coffee": {
+    "state": {
+      "within_step_mse": 0.00013375722268702846,
+      "within_fraction_of_task_variation": 0.45089719379326265,
+      "unique_sentence_sets": 235
+    },
+    "relation": {
+      "within_step_mse": 8.749863463355996e-05,
+      "within_fraction_of_task_variation": 0.24623398875756536,
+      "unique_sentence_sets": 225
+    }
+  },
+  "oatmeal": {
+    "state": {
+      "within_step_mse": 0.00014791865063712504,
+      "within_fraction_of_task_variation": 0.4333767562132389,
+      "unique_sentence_sets": 275
+    },
+    "relation": {
+      "within_step_mse": 7.891807349957094e-05,
+      "within_fraction_of_task_variation": 0.22610506094856717,
+      "unique_sentence_sets": 219
+    }
+  },
+  "pinwheels": {
+    "state": {
+      "within_step_mse": 0.00014881636112943207,
+      "within_fraction_of_task_variation": 0.47549888469420115,
+      "unique_sentence_sets": 217
+    },
+    "relation": {
+      "within_step_mse": 9.163110619825777e-05,
+      "within_fraction_of_task_variation": 0.26187343306574135,
+      "unique_sentence_sets": 187
+    }
+  },
+  "quesadilla": {
+    "state": {
+      "within_step_mse": 0.0001361567459178451,
+      "within_fraction_of_task_variation": 0.5021956842187896,
+      "unique_sentence_sets": 145
+    },
+    "relation": {
+      "within_step_mse": 9.798346477905995e-05,
+      "within_fraction_of_task_variation": 0.37046553410064087,
+      "unique_sentence_sets": 129
+    }
+  },
+  "tea": {
+    "state": {
+      "within_step_mse": 0.00013464683753349133,
+      "within_fraction_of_task_variation": 0.45325149763792266,
+      "unique_sentence_sets": 168
+    },
+    "relation": {
+      "within_step_mse": 8.744811749724789e-05,
+      "within_fraction_of_task_variation": 0.3105692552637432,
+      "unique_sentence_sets": 147
+    }
+  }
+}
